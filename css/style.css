@@ -1,0 +1,97 @@
+/*comandos*/
+
+:root{
+    --cor-fundo: #00688B;
+    --cor-hover: springgreen;
+    --cor-primaria: #FFFACD;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+    background-color: var(--cor-primaria);
+}
+
+body {
+    font-weight: 500;
+    font-size: 20px;
+    color: black; 
+}
+
+section {
+    padding: 1px 0;
+}
+
+.menu{
+    background-color: var(--cor-hover);
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: unset;
+    text-align: center;
+    height: 100px;
+}
+
+.menu span{
+    color: var(--cor-fundo);
+    background-color: yellowgreen;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    width: 1000px;
+    margin: 60px auto;
+    border-radius: 30px;
+}
+
+.big-box{
+    padding: 14px;
+    border-bottom: 1px solid var(--cor-hover);
+    background-color: var(--cor-hover);
+    border-radius: 10px;
+}
+  
+.big-box__container{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.box-1, .box-2 {
+      border: 1px solid #e7e7e7;
+      background-color: yellowgreen;
+      color: var(--cor-fundo);
+      font-family: inherit;
+      font-size: 14px;
+      padding: 12px 15px;
+      margin-right: 10px;
+      border-radius: 5px;
+      transition: border 0.3s;
+}
+  
+.box-3 {
+      border: 1px solid #e7e7e7;
+      background-color: yellowgreen;
+      color: var(--cor-fundo);
+      font-family: inherit;
+      font-size: 14px;
+      padding: 12px 15px;
+      margin-right: 10px;
+      border-radius: 5px;
+      transition: border 0.3s;
+}
+  
+  
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
